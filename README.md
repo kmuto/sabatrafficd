@@ -23,7 +23,7 @@ x-api-key: xxxxx # (必須) Mackerel の APIキー
 #   directory: cache
 #   size: 10MB
 collector:
-- host-id: xxxxx # (必須) Mackerel でのホストID
+- host-id: xxxxx # (必須) Mackerel でのホストID (custom-identifier と排他)
   # custom-identifier: switch-001 # (オプション) host-id の代わりに利用できます
   hostname: "" # (オプション)Mackerel に登録するホスト名
   community: public # (必須)取得する対象のスイッチなどの SNMP コミュニティ名を設定します
